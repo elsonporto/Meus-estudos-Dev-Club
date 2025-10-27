@@ -1,0 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;     
+}
+/*
+
+li:first-child {/*pprimeiro filho, Ex: primeira li da ul/ primeiro span de uma div
+    color: red;
+    margin-left: 30px;
+} 
+
+li:first-of-type{/* primeiro elemento de seu tipo, entre os filhos de seu elemento pai
+}
+span:first-of-type{
+    color: blue;
+}
+p:last-of-type{/*ultimo elemento de seu tipo, entre os filhos de seu elemento pai
+    color: green;
+    
+}       
+
+li:last-of-type{/*ultimo elemento de seu tipo, entre os filhos de seu elemento pai
+    color: purple;
+}
+
+ div :not(a){/*seleciona todos os elementos div que nao sejam do tipo a
+    color: red;
+
+}*/
+   
+  li:nth-child(4){/*seleciona os elementos baseado na sua posição ordem  crescente1,2,3*/
+    color: pink;   
+  }
+li:nth-last-child(4){/*seleciona o segundo elemento a partir do final ordem descrescente 4,32,1*/
+    color: orange;
+}       

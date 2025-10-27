@@ -1,0 +1,36 @@
+
+
+
+.box{
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    padding: 50px;
+    margin: 20px; /* Aplica em toda direção*/
+    margin-bottom: 40px;/* Em baixo*/
+    margin-top: 50px;/*Em cima*/
+    margin-right: 10px;/*a direita*/
+    margin-left: 10px;/*a esquerda*/
+    
+   /* margin:  10px,  15px,  20px,  25px; /*chamada margem relógio*/
+
+    /*       12h    15h       18h       21h  Isso é um atalho não para repetir as 4 margim*/      
+    /*     M.top /  M. Reith /M bottom /M.lefth / posição com relação ao relógio*/
+
+}
+
+.box-2{
+    width: 50px;
+    height:50px;
+    background: #9932cc;
+    padding-right: 50px;/* estica o quadrado externo*/
+    padding-left: 20px;
+    padding-top: 30px;
+padding-bottom: 25px;
+
+
+padding: 10px,20px,10px;/*Quando é 3 valares ele entende que: 1º em cima, 2º lados e 3º em baixo6*/
+/*1º atalho*/
+padding: 10px, 20px; /* ele vai 1ª em cima e em baixo e o 2º nos lados*/   /*2º Atalho*/
+}
+

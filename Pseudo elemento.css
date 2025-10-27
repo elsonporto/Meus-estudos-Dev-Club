@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+input{
+   color: blue;
+   height: 50px;
+   width: 300px;
+   
+}
+
+input::placeholder{
+    color: red;
+    font-size: 20px;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 500px;
+}
+
+/*p::first-line{
+   color: greenyellow;
+}
+p::before{
+    content: "🫶  ";
+    
+}
+*/
+
+p::after{
+    content: "🚀 ";
+    color: blue;
+    font-weight: bold;
+}
+a{
+    color: blue;
+}
+/*a:active{ ao clicar muda a cor
+    color: red;
+
+}*/
+a:visited{ /*quando ja visitou o link muda a cor */
+    color: purple;
+    
+} 
+/*a:hover{passou o mouse por cima muda a cor
+
+    color: orange;
+
+}  */  
+/*input:checked{ /*Só é usado em radio, checkbox e select 
+     width: 100px;
+     height: 100px;
+    
+}
+*/
+/*input:disabled{ /*quando o input está desabilitado 
+    height: 100px;
+    width: 100px;
+    background: red;
+}*/
+
+/*input:focus{/*Ele é ativado quando clica no input 
+    border: 5px solid red;
+    outline: none;
+}*/
+input:read-only{ /*quando o input está em modo somente leitura */
+    border: 2px solid green;
+    outline: none;
+}
+Div{ /*quando o elemento não está vazio  */
+    height: 100px;
+    width: 100px;
+    background:blue;
+}
+
+Div:empty{/*quando o elemento está vazio muda cor*/
+    background: red;
+}

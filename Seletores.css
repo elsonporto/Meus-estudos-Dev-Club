@@ -1,0 +1,39 @@
+
+
+* {
+    color: blue;
+}
+
+
+#Titulo {
+background:blue;
+color: black;
+font-size: 100px;}
+.t2{
+background-color: blueviolet;
+color: black;
+}
+
+
+.paragrafo{
+
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    font-weight: bold;}
+
+.par2{
+    color: black;
+    background: blueviolet;
+    font-weight: bold;
+}
+    
+
+.Botão{
+font-size: 50px;
+    background-color: green;
+    color:blueviolet}
+    .Bot2{
+        color: black;
+        font-size: 40px;
+    }

@@ -1,0 +1,17 @@
+
+
+/* cores no css rgb red, green e blue. Vai de 0 a 255*/
+
+h1{
+    background: rgb(50, 100, 60)
+}
+
+/* Hexadecimal*/
+
+
+
+
+
+h1{
+    background: #ff1;
+}

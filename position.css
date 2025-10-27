@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    height: 200vh;
+    width: 200vw;
+}
+.div-dad{
+    height: 350px;
+    width: 350px;
+    background-color: red; 
+    position:sticky; 
+    top: 30px; 
+    left: 20px;
+    
+}
+.div-son{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+.sister{
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+    }
+    
+}
+    .outra-div{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+     }
